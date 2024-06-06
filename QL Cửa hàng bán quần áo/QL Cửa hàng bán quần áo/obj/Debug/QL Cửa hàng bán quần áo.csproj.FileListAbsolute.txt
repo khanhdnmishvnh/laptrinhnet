@@ -1,0 +1,22 @@
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\bin\Debug\QL Cửa hàng bán quần áo.exe.config
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\bin\Debug\QL Cửa hàng bán quần áo.exe
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\bin\Debug\QL Cửa hàng bán quần áo.pdb
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\obj\Debug\QL Cửa hàng bán quần áo.csproj.AssemblyReference.cache
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\obj\Debug\QL_Cửa_hàng_bán_quần_áo.Properties.Resources.resources
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\obj\Debug\QL_Cửa_hàng_bán_quần_áo.frmDangNhap.resources
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\obj\Debug\QL Cửa hàng bán quần áo.csproj.GenerateResource.cache
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\obj\Debug\QL Cửa hàng bán quần áo.csproj.CoreCompileInputs.cache
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\obj\Debug\QL Cửa hàng bán quần áo.exe
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\obj\Debug\QL Cửa hàng bán quần áo.pdb
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\obj\Debug\QL_Cửa_hàng_bán_quần_áo.Hoadonban.resources
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\obj\Debug\QL_Cửa_hàng_bán_quần_áo.Hoadonnhap.resources
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\obj\Debug\QL_Cửa_hàng_bán_quần_áo.Khachhang.resources
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\obj\Debug\QL_Cửa_hàng_bán_quần_áo.Menu.resources
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\obj\Debug\QL_Cửa_hàng_bán_quần_áo.Nhacungcap.resources
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\obj\Debug\QL_Cửa_hàng_bán_quần_áo.Nhanvien.resources
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\obj\Debug\QL_Cửa_hàng_bán_quần_áo.QLthongtinquanao.resources
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\obj\Debug\QL_Cửa_hàng_bán_quần_áo.Thongke.resources
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\obj\Debug\QL_Cửa_hàng_bán_quần_áo.TKkhachhang.resources
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\obj\Debug\QL_Cửa_hàng_bán_quần_áo.TKnhacungcap.resources
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\obj\Debug\QL_Cửa_hàng_bán_quần_áo.TKnhanvien.resources
+C:\Users\trngh\source\repos\QL Cửa hàng bán quần áo\QL Cửa hàng bán quần áo\obj\Debug\QL_Cửa_hàng_bán_quần_áo.TKthongtinquanao.resources

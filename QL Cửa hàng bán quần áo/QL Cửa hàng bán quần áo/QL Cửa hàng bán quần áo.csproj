@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50F399A3-987D-45DE-8553-86E92A03EF46}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QL_Cửa_hàng_bán_quần_áo</RootNamespace>
+    <AssemblyName>QL Cửa hàng bán quần áo</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Hoadonban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoadonban.Designer.cs">
+      <DependentUpon>Hoadonban.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hoadonnhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoadonnhap.Designer.cs">
+      <DependentUpon>Hoadonnhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ketnoi.cs" />
+    <Compile Include="Khachhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Khachhang.Designer.cs">
+      <DependentUpon>Khachhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nhacungcap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nhacungcap.Designer.cs">
+      <DependentUpon>Nhacungcap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nhanvien.Designer.cs">
+      <DependentUpon>Nhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLthongtinquanao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QLthongtinquanao.Designer.cs">
+      <DependentUpon>QLthongtinquanao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Thongke.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Thongke.Designer.cs">
+      <DependentUpon>Thongke.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TKkhachhang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TKkhachhang.Designer.cs">
+      <DependentUpon>TKkhachhang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TKnhacungcap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TKnhacungcap.Designer.cs">
+      <DependentUpon>TKnhacungcap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TKnhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TKnhanvien.Designer.cs">
+      <DependentUpon>TKnhanvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TKthongtinquanao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TKthongtinquanao.Designer.cs">
+      <DependentUpon>TKthongtinquanao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Đăng nhập.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Đăng nhập.Designer.cs">
+      <DependentUpon>Đăng nhập.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Hoadonban.resx">
+      <DependentUpon>Hoadonban.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoadonnhap.resx">
+      <DependentUpon>Hoadonnhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Khachhang.resx">
+      <DependentUpon>Khachhang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nhacungcap.resx">
+      <DependentUpon>Nhacungcap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nhanvien.resx">
+      <DependentUpon>Nhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QLthongtinquanao.resx">
+      <DependentUpon>QLthongtinquanao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Thongke.resx">
+      <DependentUpon>Thongke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TKkhachhang.resx">
+      <DependentUpon>TKkhachhang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TKnhacungcap.resx">
+      <DependentUpon>TKnhacungcap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TKnhanvien.resx">
+      <DependentUpon>TKnhanvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TKthongtinquanao.resx">
+      <DependentUpon>TKthongtinquanao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Đăng nhập.resx">
+      <DependentUpon>Đăng nhập.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tt4-1024x406.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Học_viện_Ngân_hàng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-logo-vector-hoc-vien-ngan-hang-mien-phi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Học_viện_Ngân_hàng1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Học_viện_Ngân_hàng2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_Học_viện_Ngân_hàng3.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
