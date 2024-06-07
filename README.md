@@ -1,3 +1,3 @@
 # laptrinhnet
 
-nhóm chúng tôi gồm có 5 thằng đẹp trai code giỏi
+nhóm chúng em gồm có 5 bạn đẹp trai code giỏi
